@@ -21,6 +21,7 @@ public class UserLoginService {
     public user userLogin(String username, String password){
         user user = usermapper.userlogin(username,password);
         logger.info("登陆的用户信息是：{}",user);
+        logger.info("登陆的用户信息是：{}",user);
         return user;
     }
 
