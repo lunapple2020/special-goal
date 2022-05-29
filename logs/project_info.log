@@ -1,0 +1,3 @@
+2022-05-29 10:27:08.329 INFO  --- [           main] c.e.s.Springboottest1Application         : Starting Springboottest1Application on APPLE with PID 19416 (D:\Program\workspace\AI\springboottest1\target\classes started by APPLE in D:\Program\workspace\AI\springboottest1)
+2022-05-29 10:27:08.360 INFO  --- [           main] c.e.s.Springboottest1Application         : No active profile set, falling back to default profiles: default
+2022-05-29 10:27:12.796 INFO  --- [           main] c.e.s.Springboottest1Application         : Started Springboottest1Application in 6.467 seconds (JVM running for 9.518)

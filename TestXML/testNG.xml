@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="springboottest1" parallel="false">
+    <test name="UserLoginControllerTest">
+        <classes>
+            <class name="com.example.springboottest1.controller.UserLoginControllerTest"></class>
+        </classes>
+    </test>
+    <test name="UserLoginServiceTest">
+        <classes>
+            <class name="com.example.springboottest1.service.UserLoginServiceTest"></class>
+        </classes>
+    </test>
+</suite>

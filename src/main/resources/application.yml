@@ -1,0 +1,17 @@
+server:
+    port: 8080
+
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=UTC
+        username: mysql
+        password: mysql
+        driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.example.springboottest1.entity
+
+logging:
+    config: classpath:logback-config.xml

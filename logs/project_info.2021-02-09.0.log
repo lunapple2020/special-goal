@@ -1,0 +1,24 @@
+2021-02-09 11:41:07.026 INFO  --- [           main] c.e.s.Springboottest1Application         : Starting Springboottest1Application on APPLE with PID 2672 (D:\Program\workspace\AI\springboottest1\target\classes started by APPLE in D:\Program\workspace\AI\springboottest1)
+2021-02-09 11:41:07.027 INFO  --- [           main] c.e.s.Springboottest1Application         : No active profile set, falling back to default profiles: default
+2021-02-09 11:41:10.706 INFO  --- [           main] c.e.s.Springboottest1Application         : Started Springboottest1Application in 4.672 seconds (JVM running for 6.153)
+2021-02-09 11:41:26.058 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==>  Preparing: SELECT username,password,age FROM user WHERE username = ? AND password = ? 
+2021-02-09 11:41:26.202 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==> Parameters: zhenguo.dong(String), 123456(String)
+2021-02-09 11:41:26.274 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : <==      Total: 1
+2021-02-09 11:41:26.281 INFO  --- [nio-8080-exec-1] c.e.s.service.UserLoginService           : 登陆的用户信息是：com.example.springboottest1.entity.user@1787b868
+2021-02-09 11:45:42.187 INFO  --- [           main] c.e.s.Springboottest1Application         : Starting Springboottest1Application on APPLE with PID 59744 (D:\Program\workspace\AI\springboottest1\target\classes started by APPLE in D:\Program\workspace\AI\springboottest1)
+2021-02-09 11:45:42.195 INFO  --- [           main] c.e.s.Springboottest1Application         : No active profile set, falling back to default profiles: default
+2021-02-09 11:45:46.305 INFO  --- [           main] c.e.s.Springboottest1Application         : Started Springboottest1Application in 5.102 seconds (JVM running for 6.751)
+2021-02-09 11:45:55.246 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==>  Preparing: SELECT username,password,age FROM user WHERE username = ? AND password = ? 
+2021-02-09 11:45:55.246 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==>  Preparing: SELECT username,password,age FROM user WHERE username = ? AND password = ? 
+2021-02-09 11:45:55.328 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==> Parameters: zhenguo.dong(String), 123456(String)
+2021-02-09 11:45:55.328 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==> Parameters: zhenguo.dong(String), 123456(String)
+2021-02-09 11:45:55.436 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : <==      Total: 1
+2021-02-09 11:45:55.436 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : <==      Total: 1
+2021-02-09 11:45:55.455 INFO  --- [nio-8080-exec-1] c.e.s.service.UserLoginService           : 登陆的用户信息是：com.example.springboottest1.entity.user@6a18c5f1
+2021-02-09 11:55:22.471 INFO  --- [           main] c.e.s.Springboottest1Application         : Starting Springboottest1Application on APPLE with PID 61256 (D:\Program\workspace\AI\springboottest1\target\classes started by APPLE in D:\Program\workspace\AI\springboottest1)
+2021-02-09 11:55:22.475 INFO  --- [           main] c.e.s.Springboottest1Application         : No active profile set, falling back to default profiles: default
+2021-02-09 11:55:26.998 INFO  --- [           main] c.e.s.Springboottest1Application         : Started Springboottest1Application in 5.794 seconds (JVM running for 8.383)
+2021-02-09 11:56:30.407 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==>  Preparing: SELECT username,password,age FROM user WHERE username = ? AND password = ? 
+2021-02-09 11:56:30.452 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : ==> Parameters: zhenguo.dong(String), 123456(String)
+2021-02-09 11:56:30.502 DEBUG --- [nio-8080-exec-1] c.e.s.dao.userMapper.userlogin           : <==      Total: 1
+2021-02-09 11:56:30.515 INFO  --- [nio-8080-exec-1] c.e.s.service.UserLoginService           : 登陆的用户信息是：com.example.springboottest1.entity.user@728fcee
